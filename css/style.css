@@ -11,7 +11,7 @@
 	position: absolute;
 	z-index: 999;
 	background-color: #fff;
-	opacity: 0.8;
+	opacity: 0.79;
 	text-align: center;
 }
 
@@ -30,39 +30,40 @@
 .top1:hover:after {
 	content: "Home";
 	position: absolute; left: 22px; top: 22px;
-	color: rgb(255, 0, 0);   
+	color: rgb(66, 121, 203);   
 }
 
 .top2:hover:after {
 	content: "Today's Special";
 	position: absolute; left: 22px; top: 22px;
-	color: rgb(255, 0, 0);     
+	color: rgb(66, 121, 203);     
 }
 
 .top3:hover:after {
 	content: "Menu";
 	position: absolute; left: 22px; top: 22px;
-	color: rgb(255, 0, 0);    
+	color: rgb(66, 121, 203);    
 }
 
 .top4:hover:after {
 	content: "Subscribe";
 	position: absolute; left: 22px; top: 22px;
-	color: rgb(255, 0, 0);    
+	color: rgb(66, 121, 203);    
 }
 
 .top5:hover:after {
 	content: "Visit";
 	position: absolute; left: 22px; top: 22px;
-	color: rgb(255, 0, 0);  
+	color: rgb(66, 121, 203);  
 }
 
 #pizza {
-	text-shadow: 1px 1px 5px #FF0000;
+	text-shadow: 3px 3px 10px pink;
 	font-family: Painter, sans serif;
 	font-size:40px;
 	position: relative;
-	left:60px;
+	top: 10px;
+	left:210px;
 	color: black;
 	letter-spacing: 5px; 
 
@@ -74,27 +75,27 @@
 	position: relative;
 	top:5px;
 	left:65px;
-	color:red;
-	line-height:
+	color:blue;
+	line-height: ;
 
 }
 
 #dev {
-	text-shadow: 2px 2px 8px #FF0000;
+	text-shadow: 1px 1px 8px rgb(66, 121, 203);
 	font-family: 'Gugi', cursive;
 	position: relative;
-	top:30px;
-	right:95px;
+	top:18px;
+	right:23px;
 	font-size:35px;
 }
  
 /* Global */
-html{
+html {
   min-height: 100%;
   overflow: hidden;
 }
-.slogan{
-	text-shadow: 1px 1px 5px #FFFFFF;
+.slogan {
+	text-shadow: 2px 2px 20px #FFFFFF;
 	font-family: 'Gugi', cursive;
 	font-size: 250%;
 	position: absolute;
@@ -110,13 +111,15 @@ html{
 }
 
 /* Animation */
-.anim-typewriter{
+.anim-typewriter {
+	position: absolute;
+	left: 275px;
   animation: typewriter 3.5s steps(44) 1s 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 @keyframes typewriter{
   from{width: 0;}
-  to{width: 12.28em;}
+  to{width: 15em;}
 }
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
@@ -124,8 +127,9 @@ html{
 }
 
 .pizza {
-	background-image: url('../images/Pizza1.jpg');
-	background-repeat: no-repeat;
+	background: url('../images/Image7.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .pizzaMan {
