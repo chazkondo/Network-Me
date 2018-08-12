@@ -204,18 +204,21 @@ html {
   }
 
   #menu1 {
-	background-image: url(../images/menu1.jpg);
-    background-size: cover;
+	background-image: url(../images/Image.jpg);
+	background-size: 100% 100%;
+    /* background-size: cover; */
   }
 
   #menu2 {
-	background-image: url(../images/menu2.jpg);
-    background-size: cover;
+	background-image: url(../images/Image2.jpg);
+	background-size: 100% 100%;
+    /* background-size: cover; */
   }
 
   #menu3 {
-	background-image: url(../images/menu3.jpg);
-    background-size: cover;
+	background-image: url(../images/Image4.jpg);
+	background-size: 100% 100%;
+    /* background-size: cover; */
   }
 
   #menu4 {
