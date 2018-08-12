@@ -24,7 +24,7 @@ h1 {
   margin: 0 0 40px;
 }
 
-label {
+.register_label {
   position: absolute;
   left: 13px;
   color: rgba(255, 255, 255, 0.5);
@@ -33,7 +33,7 @@ label {
   font-size: 22px;
 }
 
-input,
+.register_input,
 textarea {
   font-size: 22px;
   display: block;
@@ -46,7 +46,7 @@ textarea {
   border-radius: 0;
 }
 
-input:focus,
+.register_input:focus,
 textarea:focus {
   outline: 0;
   border-color: #1ab188;
