@@ -1,0 +1,44 @@
+form {
+    border: 3px solid cornflowerblue;
+}
+
+.input {
+    width: 300px;
+    padding: 10px;
+    margin: 8px;
+    /* display: inline-block; */
+    border: 2px solid rgb(79, 77, 187);
+    box-sizing: border-box;
+}
+
+.label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#usernameId {
+    margin: 0px 0px 0px 360px;
+}
+
+#submitButtonDiv {
+    text-align: center;
+}
+
+button {
+    background-color: rgb(44, 182, 48);
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 60%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#bigContainer {
+    padding: 20px;
+    /* text-align: center; */
+}
