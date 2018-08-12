@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Pizzaria LA DevLeague</title>
+    <title>NetworkMe
+    </title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/jquery.fullPage.js"></script>
@@ -17,13 +18,13 @@
 <body>
   <div id="navbar">
     <a href="#home" class="top1">Home</a>
-    <a href="#today" class="top2">Today's Special</a>
+    <a href="#today" class="top2">About us</a>
     <span id="pizza">+</span>
     <!-- <span id="la">+</span> -->
     <span id="dev">Network Me</span>
-    <a href="#menu" class="top3">Menu</a>
-    <a href="#subscribe" class="top4">Subscribe</a>
-    <a href="#visit" class="top5">Visit</a>
+    <a href="#menu" class="top3">Get Involved</a>
+    <a href="#subscribe" class="top4">Log in</a>
+    <a href="#visit" class="top5">Register</a>
   </div>
   <div id="wrapper">
     <div class="section pizza" data-anchor="home">
@@ -32,16 +33,15 @@
     <div class="section pizzaMan" data-anchor="today">
       <div class="right hover" onmouseover="PlaySound('mySound')" 
       onmouseout="StopSound('mySound')">
-        <h2 class="cursive">Special of the day</h2>
-        <img id="conditionalLove" src="images/conditionalLove.jpg" alt="Conditional Love Pizza">
+        <h2 class="big2" id="about">About Us</h2>
+        <p class="aboutUsP">Our mission is to bring <br>together communities based <br>on interests and proximity</p>
           <div class="middle">
-            <div class="hoverText">[ Conditional Love ]</div>
           </div>
       </div>
       <audio id='mySound' src='audio/yahoo.mp3'/>
     </div>
     <div class="section" data-anchor="menu" >
-      <p class="relative big">Menu</p>
+      <p class="relative big">Get Involved</p>
       <div class="slide" id="menu1">
         <div class="menuDescription">
           <p class="daMenuDescription"><u>Object of My Desire</u><br>
@@ -88,80 +88,12 @@
             </div>
       </div>
     </div>
-    <div class="section" data-anchor="subscribe">
-      <div id="borderdiv">
-      <h2 class="relative big" id="myBtn">Subscribe now!</h2>
 
-<!-- Trigger/Open The Modal -->
-<div id="moveIt">
-<p class="rale">Sign up for our special deals!</p>
-<input type="text" placeholder="First Name">
-<input type="text" placeholder="Last Name">
-<input type="text" placeholder="Email">
-</div>
-<!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-    <p class="modal-text">By joining our News Letter<br><br>You won't miss out on our latest creations! <br> <br><input type="text" placeholder="Email"><input style="margin-left:20px" type="button" value="Submit"></p>
-    <img id="modal-image" src="images/background1.jpg" alt="">
-  </div>
-</div>  
-</div>
-      <!-- <img src="background1.jpg" alt="pic"> -->
-    </div>
-    <div class="section" data-anchor="visit">
-      <h2 class="relative big2">Location & Hours</h2>
-      <div class="mapouter" id="daMap"><div class="gmap_canvas"><iframe width="540" height="340" id="gmap_canvas" src="https://maps.google.com/maps?q=2800 Woodlawn Dr. Honolulu, HI 96822&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.mapouter{overflow:hidden;height:340px;width:540px;}.gmap_canvas {background:none!important;height:340px;width:540px;}</style></div>
-    </div>
-    <div id="location">
-      <span>Come and Visit!</span>
-      <ul>
-      <li><p>2800 Woodlawn Dr.
-          Honolulu, HI 96822</p></li>
-      <li><p><a href="https://www.google.com/maps?ll=21.223782,-157.899628&z=13&t=m&hl=en&gl=US&mapclient=embed&cid=15585431400080676543" target="_blank">Open google maps in new tab</a></p></li>
-      <li><p>Monday - Saturday</p></li>
-      <li><p>12pm - 12am</p></li>
-      <li><p>Coding On Sundays</p></li>
-    </ul>
-    <footer class="footer"><p>Site Design and Development By Chaz Kondo
-
-        © 2017 Gin Drinkers Association (GDA)</p></footer>
-    </div>
-  </div>
   <script>
     $(document).ready(function() {
       $('#wrapper').fullpage();
     });
   </script>
-  <script>
-      // Get the modal
-      var modal = document.getElementById('myModal');
-      
-      // Get the button that opens the modal
-      var btn = document.getElementById("myBtn");
-      
-      // Get the <span> element that closes the modal
-      var span = document.getElementsByClassName("close")[0];
-      
-      // When the user clicks the button, open the modal 
-      btn.onmouseover = function() {
-          modal.style.display = "block";
-      }
-      
-      // When the user clicks on <span> (x), close the modal
-      span.onclick = function() {
-          modal.style.display = "none";
-      }
-      
-      // When the user clicks anywhere outside of the modal, close it
-      window.onclick = function(event) {
-          if (event.target == modal) {
-              modal.style.display = "none";
-          }
-      }
-      </script>
+
 </body>
 </html>

@@ -34,25 +34,25 @@
 }
 
 .top2:hover:after {
-	content: "Today's Special";
+	content: "About us";
 	position: absolute; left: 22px; top: 22px;
 	color: rgb(66, 121, 203);     
 }
 
 .top3:hover:after {
-	content: "Menu";
+	content: "Get involved";
 	position: absolute; left: 22px; top: 22px;
 	color: rgb(66, 121, 203);    
 }
 
 .top4:hover:after {
-	content: "Subscribe";
+	content: "Log in";
 	position: absolute; left: 22px; top: 22px;
 	color: rgb(66, 121, 203);    
 }
 
 .top5:hover:after {
-	content: "Visit";
+	content: "Register";
 	position: absolute; left: 22px; top: 22px;
 	color: rgb(66, 121, 203);  
 }
@@ -138,12 +138,21 @@ html {
 	max-height: 100%;
 	margin: 0;
 	padding: 0;
-	background-image: url('../images/pizzaMan.jpg');
-	background-size:50% 100%;
+	background-image: url('../images/Image5.jpg');
+	background-size:100% 100%;
 	background-repeat: no-repeat;
 }
 
 .cursive {
+	text-shadow: 2px 2px 8px #FF0000;
+	font-family: Painter, sans serif;
+	font-size: 300%;
+	letter-spacing: 5px; 
+}
+
+.cursive2 {
+	position:absolute;
+	bottom: -600px;
 	text-shadow: 2px 2px 8px #FF0000;
 	font-family: Painter, sans serif;
 	font-size: 300%;
@@ -358,4 +367,39 @@ p {
 	top: 132%;
 	bottom: 0%;
 	left: -60%;
+}
+
+.theButton {
+	position: relative;
+	top: 20px;
+	padding: 10px;
+	width: 100px;
+	background-color: green;
+	border-radius: 8px;
+	color: white;
+}
+
+.theButton2 {
+	position: relative;
+	left: 10px;
+	padding: 10px;
+	width: 100px;
+	background-color: green;
+	border-radius: 8px;
+	color: white;
+}
+
+#about {
+	position: relative;
+	top: -50px !important;
+	right: -200px;
+	font-size: 55px;
+	text-shadow: 1px 1px 10px rgb(66, 121, 203);
+}
+
+.aboutUsP{
+	position: relative;
+	top: -100px;
+	color: white;
+	right: -220px;
 }
